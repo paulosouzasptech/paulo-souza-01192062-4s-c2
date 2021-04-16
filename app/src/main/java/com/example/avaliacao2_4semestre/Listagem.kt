@@ -16,15 +16,18 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class Listagem : AppCompatActivity() {
+    lateinit var tvCachorroNaoIndicadoParaCriancas: TextView
+    lateinit var tvCachorroIndicadoParaCriancas: TextView
+    lateinit var tvTotalDeCachorros: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.listar_cachorros)
 
         fun listarCachorros(view: View) {
-            val tvCachorroNaoIndicadoParaCriancas: TextView = findViewById(R.id.tv_cachorros_nao_indicados_value)
-            val tvCachorroIndicadoParaCriancas: TextView = findViewById(R.id.et_cachorros_indicados_value)
-            val tvTotalDeCachorros: TextView = findViewById(R.id.tv_total_cachorros_value)
+            tvCachorroNaoIndicadoParaCriancas = findViewById(R.id.tv_cachorros_nao_indicados_value)
+            tvCachorroIndicadoParaCriancas = findViewById(R.id.et_cachorros_indicados_value)
+            tvTotalDeCachorros = findViewById(R.id.tv_total_cachorros_value)
 
             val apiConexao = ApiConexao.criar()
 
