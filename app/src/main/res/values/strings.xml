@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Avaliacao 2 - 4 Semestre</string>
+    <string name="app_name">Avaliacao 2 – 4 Semestre</string>
+    <string name="btn_cadastrar">Cadastrar Cachorro</string>
+    <string name="btn_listar">Listar Cachorros</string>
+    
+    <string name="tv_cadastrar_raca">Raça:</string>
+    <string name="tv_cadastrar_preco_medio">Preço Medio:</string>
+    <string name="tv_cadastrar_indicado_criancas">Indicado para Criancas?</string>
+    <string name="tv_cadastrado_sucesso">Cão cadastrado com sucesso</string>
+    
+    <string name="tv_cachorros_indicados">Cachorros indicados para crianças: </string>
+    <string name="tv_cachorros_nao_indicados">Cachorros nao indicados para crianças: </string>
+    <string name="tv_total_cachorros">Total de Cachorros: </string>
+
 </resources>
